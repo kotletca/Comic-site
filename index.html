@@ -5,17 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Комикс</title>
   <style>
+    /* Стили для страницы */
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       text-align: center;
     }
+
+    /* Контейнер для центрального размещения */
     .container {
       max-width: 800px;
       margin: 0 auto;
+      padding: 20px;
     }
-    h1 {
-      color: #333;
+
+    /* Стили для картинок */
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 20px auto;
+    }
+
+    /* Слайдер (горизонтальная прокрутка) */
+    .slider {
+      overflow-x: auto;
+      white-space: nowrap;
+      margin: 20px auto;
+      padding: 20px 0;
+    }
+
+    .slider img {
+      display: inline-block;
+      margin-right: 20px;
     }
   </style>
 </head>
